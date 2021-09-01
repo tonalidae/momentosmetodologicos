@@ -14,7 +14,7 @@ body {
   transform-origin: top left;
 }
 .one {
-  background: url("assets/imgs/Momentos\ metodologicos.jpg");
+  background: url("/assets/imgs/Momentos\ metodologicos.jpg");
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 400vw;
