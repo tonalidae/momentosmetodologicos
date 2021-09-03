@@ -11,14 +11,14 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 450vw;
+  width: 440vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
 .one {
   background: url("/assets/imgs/Ubicación\ texto.jpg");
   background-size: auto 100vh;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 500vw;
 }
 .outer-wrapper {
@@ -48,56 +48,56 @@ body {
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
-  line-height: 85%;
+  line-height: 90%;
   color: #837E7D;
 }
 #texto-2 {
   text-align: justify;
   position: absolute;
   top: 14%;
-  left: 15.2%;
+  left: 14%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
-  line-height: 85%;
+  line-height: 90%;
   color: #837E7D;
 }
 #texto-3 {
   text-align: justify;
   position: absolute;
   top: 26%;  
-  left: 26%;
+  left: 24%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
-  line-height: 85%;
+  line-height: 90%;
   color: #837E7D;
 }
 #texto-4 {
   text-align: justify;
   position: absolute;
   top: 77.5%;  
-  left: 38.2%;
+  left: 37.2%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
   color: #837E7D;
-  line-height: 85%;
+  line-height: 90%;
 }
 #texto-5 {
   text-align: justify;
   position: absolute;
   top: 40%;  
-  left: 49.5%;
+  left: 48.5%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
   color: #837E7D;
-  line-height: 85%;
+  line-height: 90%;
 }
 #texto-6 {
   text-align: justify;
@@ -109,31 +109,31 @@ body {
   font-size: 1em;
   font-weight:regular;
   color: #837E7D;
-  line-height: 85%;}
+  line-height: 90%;}
 
 #texto-7 {
   text-align: justify;
   position: absolute;
   top: 46%;
-  left: 75.3%;
+  left: 73.3%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
   color: #837E7D;
-  line-height: 85%;
+  line-height: 90%;
 }
 #texto-8 {
   text-align: justify;
   position: absolute;
   top: 77%;
-  left: 93%;
+  left: 91%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
   color: #837E7D;
-  line-height: 85%;
+  line-height: 90%;
 } 
 
 .song {
@@ -142,6 +142,8 @@ body {
 	font-size: 1em;
   font-family:'Minion Pro Regular';
   color: #837E7D;
+  padding-left: 1em;
+  padding-top: 1em;
 }
 .pause {
 	margin-left: 0.5em;

@@ -7,7 +7,7 @@ function togglePlay() {
 		pause.innerHTML = "☁️";
 	} else {
 		audio.pause();
-		pause.innerHTML = "☀️";
+		pause.innerHTML = "🦗";
 		pause.style.color = "#837E7D";
 	}
 }
