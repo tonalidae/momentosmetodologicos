@@ -102,9 +102,9 @@ body {
 #texto-6 {
   text-align: justify;
   position: absolute;
-  top: 70%;
-  left: 90%;
-  inline-size: 600px;
+  top: 79%;
+  left: 63.3%;
+  inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
@@ -114,8 +114,8 @@ body {
 #texto-7 {
   text-align: justify;
   position: absolute;
-  top: 40%;
-  left: 75%;
+  top: 46%;
+  left: 75.3%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
