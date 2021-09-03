@@ -33,13 +33,84 @@ body {
 ::-webkit-scrollbar {
   display:none;
 }
-#texto-1 {
-  text-align: left;
+#texto-0{
+  text-align: justify;
   position: absolute;
-  top: 54%;
-  left: 3.6%;
+  top: 81%;
+  left: 1%;
+  inline-size: 400px;
+  font-family: 'Minion Pro Regular';
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+#texto-1 {
+  text-align: justify;
+  position: absolute;
+  top: 56%;
+  left: 6%;
+  inline-size: 450px;
+  font-family:'Minion Pro Regular';
+  font-size: 1.7em;
+  font-weight:bold;
+}
+#texto-2 {
+  text-align: justify;
+  position: absolute;
+  top: 4%;
+  left: 15%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
-  font-size: 1.1em;
+  font-size: 1.7em;
+  font-weight:bold
+}
+#texto-3 {
+  text-align: justify;
+  position: absolute;
+  top: 24%;  
+  left: 24%;
+  inline-size: 400px;
+  font-family:'Minion Pro Regular';
+  font-size: 1.7em;
+  font-weight:bold
+}
+#texto-4 {
+  text-align: justify;
+  position: absolute;
+  top: 78%;  
+  left: 36.5%;
+  inline-size: 650px;
+  font-family:'Minion Pro Regular';
+  font-size: 1.7em;
+  font-weight:bold
+}
+#texto-5 {
+  text-align: justify;
+  position: absolute;
+  top: 25%;  
+  left: 48%;
+  inline-size: 400px;
+  font-family:'Minion Pro Regular';
+  font-size: 1.7em;
+  font-weight:bold
+}
+#texto-6 {
+  text-align: justify;
+  position: absolute;
+  top: 70%;
+  left: 65%;
+  inline-size: 600px;
+  font-family:'Minion Pro Regular';
+  font-size: 1.7em;
+  font-weight:bold
+}
+#texto-7 {
+  text-align: justify;
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  inline-size: 400px;
+  font-family:'Minion Pro Regular';
+  font-size: 1.7em;
   font-weight:bold
 }
