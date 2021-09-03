@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      body {
+  margin: 0;
+  padding: 0;
+}
+
+.outer-wrapper {
+  height: 100vh;
+  width: 200vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: absolute;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  color: #000;
+  flex-shrink: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#a { background-color: #ccc; }
+#b { background-color: #fff; }
+#c { background-color: #ccc; }
+#d { background-color: #fff; }
+#e { background-color: #ccc; }
+#f { background-color: #fff; }
+
+
+h2 {
+  text-align: center;
+  font-size: 200px;
+  margin: 0;
+}
+
+
+
+/* MENU  _________________________ */
+
+
+
+.logo {
+  float: left;
+}
+
+nav {
+  width: 100%;
+}
+
+/* HEADER */
+
+header {
+  float: left;
+  width: 100%;
+  position: absolute;
+  z-index: 9999;
+}
+
+
+/* HEADER LARGE */
+
+header.large {
+  height: 50px;
+}
+
+header.large .logo {
+  width: 225px;
+  height: 50px;
+  margin: 20px 0 0 20px;
+  background: url('../images/logo-fireqa-green-500px.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  transition: 0.7s all;
+  -moz-transition: 0.7s all;
+  -webkit-transition: 0.7s all;
+  -o-transition: 0.7s all;
+}
+
+
+/* UNORDERED LIST */
+
+header.large ul {
+  list-style: none;
+  float: right;
+  margin-right: 25px;
+}
+header.small ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+
+header.large li {
+  display: inline;
+  float: left;
+  list-style-position: inside;
+  height: 50px;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  transition: all 0.3s ease-in-out;
+}
+
+
+header.large li a {
+  display: block;
+  padding: 20px;
+  color: #0E6245;
+  text-decoration: none;
+  font-family: 'Montserrat', 'arial', sans-serif;
+  font-weight: 600 !important;
+  letter-spacing: -1px;
+  font-size: 25px;
+
+  background-image: linear-gradient(#0E6245, #0E6245);
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  background-size: 0% 4px;
+
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+header.large li a:hover, a:focus {
+  background-size: 60% 4px;
+}
+
+
+
+/* ANIMATION */
+
+
+
+.slideUp h2 {
+   opacity: 1;
+   animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+   transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+    }
+100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(30%);
+    opacity: 0;
+  }
+100% {
+    -webkit-transform: translateY(0%);
+    opacity: 1;
+  }
+}
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+
+</head>
+<body>
+    <script src = "https://raw.githack.com/CristianDavideConte/universalSmoothScroll/master/js/universalsmoothscroll-min.js"></script>
+<body onload = init()>
+
+
+<main class="outer-wrapper">
+    <div class="wrapper">
+        <article class="section" id="a"><h2>01</h2></article>
+        <article class="section" id="b"><h2>02</h2></article>
+        <article class="section" id="c"><h2>03</h2></article>
+        <article class="section" id="d"><h2>04</h2></article>
+        <article class="section" id="e"><h2>05</h2></article>
+        <article class="section" id="f"><h2>06</h2></article>
+    </div>
+</main>
+
+
+<!-- MENU _____________________ -->
+
+
+<header class="large">
+    <div class="container">
+      <nav>
+        <a href="#welcome"><div class="logo"></div></a>
+          <ul>
+            <li><a href="#a">01</a></li>
+            <li><a href="#b">02</a></li>
+            <li><a href="#c">03</a></li>
+            <li><a href="#d">04</a></li>
+         </ul>
+      </nav>
+    </div>
+  </header>
+
+  </body>
+
+
+
+    <script type="text/javascript">//<![CDATA[
+
+
+function init() {
+    let yourWrapperElement = document.getElementsByClassName("outer-wrapper")[0];
+    let minScrollDistance = window.innerWidth / 5; //Adjust the scroll sensitivity as you like
+    let minScrollDistanceRaw = minScrollDistance / 3;
+    let whateverEaseFunctionYouWant = remaningScrollDistance => { return remaningScrollDistance / 15 + 1 };
+    let previousScrollDirection = undefined;
+    let currentScrollDirection = undefined;
+    uss.hrefSetup();
+    yourWrapperElement.addEventListener("wheel", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      currentScrollDirection = Math.sign(event.deltaY);
+      if(currentScrollDirection !== previousScrollDirection) {
+        previousScrollDirection = currentScrollDirection;
+        uss.stopScrollingX(yourWrapperElement);
+      }
+      if(Math.abs(event.deltaY) >= 100)
+          uss.scrollXBy(event.deltaY / 100 * minScrollDistance, yourWrapperElement, null, true);
+      else
+          uss.scrollXBy(event.deltaY * minScrollDistanceRaw, yourWrapperElement, null, true);   
+    }, {passive:false});
+    uss.setXStepLengthCalculator(whateverEaseFunctionYouWant, yourWrapperElement);
+}
+
+// Get an array of elements to watch
+let elements = document.querySelectorAll('.section');
+
+// Set an observer to watch their position relative to the viewport boundaries
+let observer = new IntersectionObserver(function (entries, self) {
+    entries.forEach(entry => {
+        // If this item is in the viewport
+        if (entry.isIntersecting) {
+            // Do some code on that item
+            entry.target.classList.add('slideUp');
+        } else {
+        entry.target.classList.remove('slideUp');
+        }
+    });
+}, { root: null, rootMargin: '0px', threshold: 0.25 });
+
+// Tell each element to be watched
+elements.forEach(el => {
+    observer.observe(el);
+});
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "ks3dwh9p"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body>
+</html>

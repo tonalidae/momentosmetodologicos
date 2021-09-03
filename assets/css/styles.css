@@ -33,6 +33,8 @@ body {
 ::-webkit-scrollbar {
   display:none;
 }
+.fade {
+  opacity: 1;}
 #texto-0{
   text-align: justify;
   position: absolute;

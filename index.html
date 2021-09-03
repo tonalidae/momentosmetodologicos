@@ -6,10 +6,14 @@
     <title>Momentos Metodologicos.</title>
     <link rel="stylesheet" type="text/css"
           href="/assets/css/font.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
   </head>
   <body>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script src="/assets/js/fadeout.js"></script>
     <div class="outer-wrapper">
       <div class="wrapper">
         <div class="slide one">
@@ -17,15 +21,15 @@
           <p>El viaje apareció en medio de sueños sin forma, de ideas sin mapa.
             Ya había subido al bus antes de partir. </p>
         </div>          
-        <div id="texto-1">
+        <div id="texto-1"  data-aos="fade-up">
           <p>Miré desde lo alto de mi imaginación para recordar un lugar en el que había estado sin tomarme el tiempo de ver.</p>
            
         </div>
-        <div id="texto-2">
+        <div id="texto-2" data-aos="fadeInUp">
           <p>Un rincón repleto de relatos, donde la fuerza de las costumbres aún resisten, por encima de la hipnótica idea del progreso.</p>
            
         </div>
-        <div id="texto-3">
+        <div id="texto-3" data-aos="fade-up" >
           <p>Avancé por caminos hechos a mano, tejidos por la inspiración de mujeres que parecen estáticas en el tiempo.</p>
         </div>
         <div id="texto-4">
@@ -49,7 +53,11 @@
 
 
       
-    </div>
+    </div>    
     <script  src="/assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>  
   </body>
 </html>
