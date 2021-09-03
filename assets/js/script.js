@@ -11,3 +11,19 @@ $(ele).hide().appendTo('.p1').each(function (i) {
         opacity: 1
     }, 100);
 });
+
+
+var content = 'Un rincón repleto de relatos, donde la fuerza de las costumbres aún resisten, por encima de la hipnótica idea del progreso.';
+
+var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
+
+
+$(ele).hide().appendTo('.p2').each(function (j) {
+    $(this).delay(300 * j).css({
+        display: 'inline',
+        opacity: 0
+    }).animate({
+        opacity: 1
+    }, 100);
+});
+

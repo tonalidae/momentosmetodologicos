@@ -11,7 +11,7 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 440vw;
+  width: 430vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -53,7 +53,7 @@ body {
   text-align: justify;
   position: absolute;
   top: 14%;
-  left: 14%;
+  left: 15%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
@@ -64,8 +64,8 @@ body {
 #texto-3 {
   text-align: justify;
   position: absolute;
-  top: 28%;  
-  left: 24%;
+  top: 29%;  
+  left: 26%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
@@ -76,8 +76,8 @@ body {
 #texto-4 {
   text-align: justify;
   position: absolute;
-  top: 79%;  
-  left: 37.2%;
+  top: 80%;  
+  left: 38.3%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
@@ -89,7 +89,7 @@ body {
   text-align: justify;
   position: absolute;
   top: 40%;  
-  left: 48.5%;
+  left: 49%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
@@ -101,7 +101,7 @@ body {
   text-align: justify;
   position: absolute;
   top: 79%;
-  left: 63.3%;
+  left: 63%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
@@ -112,8 +112,8 @@ body {
 #texto-7 {
   text-align: justify;
   position: absolute;
-  top: 46%;
-  left: 73.3%;
+  top: 49%;
+  left: 75%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
@@ -124,8 +124,8 @@ body {
 #texto-8 {
   text-align: justify;
   position: absolute;
-  top: 77%;
-  left: 91%;
+  top: 78%;
+  left: 93%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
