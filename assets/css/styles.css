@@ -60,41 +60,44 @@ body {
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
-  line-height: 82%;
+  line-height: 85%;
   color: #837E7D;
 }
 #texto-3 {
   text-align: justify;
   position: absolute;
   top: 26%;  
-  left: 44%;
+  left: 26%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
+  line-height: 85%;
   color: #837E7D;
 }
 #texto-4 {
   text-align: justify;
   position: absolute;
   top: 77.5%;  
-  left: 64.7%;
+  left: 38.2%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
-  font-color: #837E7D;
+  color: #837E7D;
+  line-height: 85%;
 }
 #texto-5 {
   text-align: justify;
   position: absolute;
   top: 40%;  
-  left: 84%;
+  left: 49.5%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
-  font-color: #837E7D;
+  color: #837E7D;
+  line-height: 85%;
 }
 #texto-6 {
   text-align: justify;
@@ -105,9 +108,9 @@ body {
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
-  
-  font-color: #837E7D;
-}
+  color: #837E7D;
+  line-height: 85%;}
+
 #texto-7 {
   text-align: justify;
   position: absolute;
@@ -117,17 +120,18 @@ body {
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
-  
-  font-color: #837E7D;
+  color: #837E7D;
+  line-height: 85%;
 }
 #texto-8 {
   text-align: justify;
   position: absolute;
-  top: 76%;
+  top: 77%;
   left: 93%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
   font-size: 1em;
   font-weight:regular;
-  font-color: #837E7D;
+  color: #837E7D;
+  line-height: 85%;
 } 
