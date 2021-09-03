@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+  padding: 40px;  
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  font-weight: bold;
+  width: 400px;
+}
+/* Animation */
+/*p {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+p: nth-child(2)
+{
+    white-space:nowrap;
+    overflow:hidden;    
+   animation: animated-text2 4s steps(29,end) 1s 1 normal both;
+    -webkit-animation-delay: 5s; 
+    animation-delay: 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+/* text animation */
+
+/*@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+@keyframes animated-text2{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+/* cursor animations */
+
+/*@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}

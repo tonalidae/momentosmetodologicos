@@ -1,4 +1,4 @@
-var content = 'El viaje apareció en medio de sueños sin forma, de ideas sin mapa. Ya había subido al bus antes de partir..Miré desde lo alto de mi imaginación para recordar un lugar en el que había estado sin tomarme el tiempo de ver.';
+var content = 'If life is so blue, then select another colour from the rainbow';
 
 var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
 

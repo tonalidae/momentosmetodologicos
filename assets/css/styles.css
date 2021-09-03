@@ -11,7 +11,7 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 430vw;
+  width: 400vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -135,3 +135,4 @@ body {
   color: #837E7D;
   line-height: 85%;
 } 
+
