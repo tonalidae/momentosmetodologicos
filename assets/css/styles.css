@@ -11,7 +11,7 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 500vw;
+  width: 450vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -136,3 +136,14 @@ body {
   line-height: 85%;
 } 
 
+.song {
+	display: flex;
+	align-items: center;
+	font-size: 1em;
+  font-family:'Minion Pro Regular';
+  color: #837E7D;
+}
+.pause {
+	margin-left: 0.5em;
+	cursor:pointer;
+}
