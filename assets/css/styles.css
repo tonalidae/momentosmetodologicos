@@ -9,15 +9,15 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 400vw;
+  width: 500vw;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
 .one {
-  background: url("/assets/imgs/Momentos\ metodologicos.jpg");
+  background: url("/assets/imgs/Ubicación\ texto.jpg");
   background-size: auto 100vh;
   background-repeat: repeat-x;
-  width: 400vw;
+  width: 500vw;
 }
 .outer-wrapper {
   width: 100vh;
@@ -33,12 +33,13 @@ body {
 ::-webkit-scrollbar {
   display:none;
 }
-.header-overlay {
+#texto-1 {
+  text-align: left;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgb(255, 255, 255);
-  opacity: 0;
+  top: 54%;
+  left: 3.6%;
+  inline-size: 400px;
+  font-family:'Minion Pro Regular';
+  font-size: 1.1em;
+  font-weight:bold
 }

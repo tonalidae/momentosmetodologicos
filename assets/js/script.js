@@ -1,13 +1,11 @@
-$(window).scroll(function() {
-    var scrollTop = $(this).scrollTop();
-  
-    $('.header-overlay').css({
-      opacity: function() {
-        var elementHeight = $(this).height(),
-          opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * 0.8) + 0.2;
-  
-        return opacity;
-      }
-    });
-  });
-  
+const checkpoint = 300;
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll <= checkpoint) {
+    opacity = 1 - currentScroll / checkpoint;
+  } else {
+    opacity = 0;
+  }
+  document.querySelector(".front").style.opacity = opacity;
+});
