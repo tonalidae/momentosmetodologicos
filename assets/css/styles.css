@@ -123,11 +123,11 @@ body {
 #texto-8 {
   text-align: justify;
   position: absolute;
-  top: 70%;
+  top: 76%;
   left: 93%;
   inline-size: 400px;
   font-family:'Minion Pro Regular';
-  font-size: 1.7em;
-  font-weight:bold;
+  font-size: 1em;
+  font-weight:regular;
   font-color: #837E7D;
 } 
