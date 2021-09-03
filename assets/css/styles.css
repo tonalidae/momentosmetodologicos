@@ -14,7 +14,7 @@ body {
   transform-origin: top left;
 }
 .one {
-  background: url("/assets/imgs/Ubicación\ texto.jpg");
+  background: url("/assets/imgs/Momentos\ final.jpg");
   background-size: auto 100vh;
   background-repeat: repeat-x;
   width: 500vw;
@@ -114,3 +114,13 @@ body {
   font-size: 1.7em;
   font-weight:bold
 }
+#texto-8 {
+  text-align: justify;
+  position: absolute;
+  top: 70%;
+  left: 93%;
+  inline-size: 400px;
+  font-family:'Minion Pro Regular';
+  font-size: 1.7em;
+  font-weight:bold
+} 
