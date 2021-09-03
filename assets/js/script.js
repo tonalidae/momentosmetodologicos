@@ -19,7 +19,7 @@ var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
 
 
 $(ele).hide().appendTo('.p2').each(function (j) {
-    $(this).delay(300 * j).css({
+    $(this).delay(100 * j).css({
         display: 'inline',
         opacity: 0
     }).animate({
@@ -27,3 +27,16 @@ $(ele).hide().appendTo('.p2').each(function (j) {
     }, 100);
 });
 
+var content = 'Avancé por caminos hechos a mano, tejidos por la inspiración de mujeres que parecen estáticas en el tiempo.';
+
+var ele = '<span>' + content.split('').join('</span><span>') + '</span>';
+
+
+$(ele).hide().appendTo('.p3').each(function (j) {
+    $(this).delay(100 * j).css({
+        display: 'inline',
+        opacity: 0
+    }).animate({
+        opacity: 1
+    }, 100);
+});

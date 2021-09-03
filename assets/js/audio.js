@@ -1,6 +1,6 @@
 var pause = document.querySelector(".pause");
 var audio = document.querySelector(".audio");
-    audio.volume = 0.2;
+    audio.volume = 0.15;
 function togglePlay() {
 	if (audio.paused) {
 		audio.play();
